@@ -1,0 +1,73 @@
+baseURL = "http://labs.leap.io/"
+languageCode = "en-us"
+title = "labs.leap.io"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Code, Travel, Photography & Watches"
+  brand = "<i class=\"fa fa-gears\" aria-hidden=\"true\"></i>labs.leap.io"
+  subbrand = "Johannes Winkelmann's Virtual Maker Space"
+  #brand = "<img src=\"/images/labs-logo.png\"/>"
+
+##  googleAnalytics = "Your Google Analytics tracking ID"
+##  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  # highlightjs = "androidstudio"
+  highlightjs = "atom-one-light"
+
+  custom_css = ["css/jw.css"]
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  #twitter = "winkj"
+  #facebook = "johannes.winkelmann"
+
+  #instagram = "winkj"
+  #flickr = "winkj"
+
+  linkedin = "johanneswinkelmann"
+
+  photo500px = "johanneswinkelmann"
+
+  # Techie
+  github = "winkj"
+
+[[menu.main]]
+    weight = 1
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    weight = 2
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    identifier = "post"
+    url = "/post/"
+
+[[menu.main]]
+    weight = 3
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    identifier = "topics"
+    url = "/topics/"
+[[menu.main]]
+    weight = 4
+    name = "Tags"
+    pre = "<i class='fa fa-tag fa-fw'></i>"
+    identifier = "tags"
+    url = "/tags/"
+
+[[menu.main]]
+    weight = 5
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    identifier = "about"
+    url = "/about/"
